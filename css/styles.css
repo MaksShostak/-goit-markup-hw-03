@@ -1,0 +1,351 @@
+/* #FFFFFF */
+/* background: #FFFFFF; */
+/* #ECECEC */
+/* border: 1px solid #ECECEC */
+/* #212121 */
+/* background: #212121; */
+/* #2196F3 */
+/* background: #2196F3; */
+/* #000000 */
+/* background: #000000; */
+/* #757575 */
+/* background: #757575; */
+/* #2F303A */
+/* background: #2F303A; */
+/* #F5F4FA */
+/* background: #F5F4FA; */
+/* #EEEEEE */
+/* background: #EEEEEE */
+/* background: #FFFFFF99  */
+/* color: rgba(255, 255, 255, 0.6); */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --footer-background-color: #2f303a;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+
+/* logo */
+.logo {
+  text-decoration: none;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.word-web,
+.word-web {
+  color: var(--accent-color);
+}
+header .word-studio {
+  color: #000000;
+}
+.footer .word-studio {
+  color: var(--primary-white-color);
+}
+/* .logo .header:hover,
+.logo .header:focus,
+.logo .header:active,
+.logo .footer:hover,
+.logo .footer:focus,
+.logo .footer:active {
+  color: var(--accent-color);
+} */
+.navigation span:hover,
+.navigation span:active,
+.navigation span:focus {
+  color: var(--accent-color);
+}
+
+/* site navi */
+.list {
+  list-style: none;
+}
+.site-nav .link {
+  text-decoration: none;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--title-text-color);
+}
+.site-nav .current {
+  color: var(--accent-color);
+}
+
+/* .site-nav.list :hover,
+.site-nav.list :focus,
+.site-nav.list :active {
+  color: var(--accent-color);
+} */
+.site-nav a:hover,
+.site-nav a:active,
+.site-nav a:focus {
+  color: var(--accent-color);
+}
+.site-contact .header-mail,
+.site-contact .header-tel {
+  text-decoration: none;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+
+  color: var(--primary-text-color);
+}
+
+/* .site-contact.list :hover,
+.site-contact.list :focus,
+.site-contact.list :active {
+  color: var(--accent-color);
+} */
+.site-contact a:hover,
+.site-contact a:focus,
+.site-contact a:active {
+  color: var(--accent-color);
+}
+
+/* hero */
+.hero {
+  background-color: var(--footer-background-color);
+}
+.hero-title {
+  text-transform: uppercase;
+  text-align: center;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+}
+.hero-button {
+  display: inline-block;
+  padding: 10px 32px;
+  min-width: 200px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+  background-color: var(--accent-color);
+  /* border-color: var(--accent-color); */
+  border-color: transparent;
+}
+.hero-button:focus,
+.hero-button:active,
+.hero-button:hover {
+  color: #000000;
+  background-color: var(--accent-color);
+}
+
+/* distinction */
+/* .distinction {
+  background-color: var(--primary-white-color);
+} */
+.distinction-title,
+.filter-title,
+.work-description {
+  display: none;
+}
+.distinction-header {
+  text-transform: uppercase;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.distinction-description {
+  letter-spacing: 0.03em;
+}
+
+/* occupation */
+
+/* .occupation {
+    background-color: var(--primary-white-color);
+} */
+.occupation-title,
+.our-team-title {
+  text-align: center;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+
+/* .occupation.link:hover,
+.occupation.link:focus,
+.occupation.link:active {
+  color: var(--accent-color);
+  cursor: pointer;
+} */
+/* .occupation.link {
+  cursor: pointer;
+} */
+/* our-team */
+.our-team {
+  background-color: #f5f4fa;
+}
+.team-member {
+  text-align: center;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+.specialization {
+  text-align: center;
+
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/* .our-team.link:hover,
+.our-team.link:focus,
+.our-team.link:active {
+  color: var(--accent-color);
+}
+.our-team.link {
+  cursor: pointer;
+} */
+.our-team.list {
+  text-align: center;
+}
+/* fotter */
+.footer {
+  background-color: var(--footer-background-color);
+}
+.physical-address {
+  text-decoration: none;
+
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.footer-tel,
+.footer-mail {
+  text-decoration: none;
+
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+/* .footer-mail:focus,
+.footer-mail:active,
+.footer-mail:hover,
+.footer-tel:hover,
+.footer-tel:focus,
+.footer-tel:active,
+.physical-address:focus,
+.physical-address:active,
+.physical-address:hover {
+  color: var(--accent-color);
+} */
+/* .adress .list :focus,
+.adress .list :active,
+.adress .list :hover {
+  color: var(--accent-color);
+} */
+.adress a:hover,
+.adress a:focus,
+.adress a:active {
+  color: var(--accent-color);
+}
+/* filter */
+
+.filter-bar-button {
+  display: inline-block;
+  padding: 6px 22px;
+  min-width: auto;
+  border-radius: 4px;
+
+  text-align: center;
+  cursor: pointer;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  line-height: 1.62;
+
+  background-color: #f5f4fa;
+  color: #212121;
+  /* border-color: #f5f4fa; */
+  border-color: transparent;
+}
+.filter-bar-button:focus,
+.filter-bar-button:active,
+.filter-bar-button:hover {
+  color: #ffffff;
+  background-color: var(--accent-color);
+  /* border-color: var(--accent-color); */
+}
+.work-link {
+  text-decoration: none;
+}
+
+.work-link:hover,
+.work-link:focus,
+.work-link:active {
+  color: var(--accent-color);
+}
+
+.work-group,
+.work-description {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.title-image {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--title-text-color);
+}
