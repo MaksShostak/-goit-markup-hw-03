@@ -94,8 +94,8 @@ header .word-studio {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-  text-decoration: none;
 
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -124,7 +124,6 @@ header .word-studio {
   padding-bottom: 32px;
 
   text-decoration: none;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14px;
@@ -150,12 +149,12 @@ header .word-studio {
 }
 
 .hero-title {
-  text-transform: uppercase;
   /* text-align: center; */
   margin: 0 auto;
   margin-bottom: 30px;
   max-width: 696px;
 
+  text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -190,11 +189,10 @@ header .word-studio {
   background-color: var(--accent-color);
 }
 
-/* distinction */
-.distinction {
-  /* background-color: var(--primary-white-color); */
-  /* padding-bottom: 0; */
-}
+/* .distinction {
+  background-color: var(--primary-white-color);
+  padding-bottom: 0;
+} */
 
 .distinction-title,
 .filter-title,
@@ -229,7 +227,6 @@ header .word-studio {
 .our-team-title {
   margin-top: 0;
   margin-bottom: 50px;
-
   text-align: center;
 
   font-weight: 700;
@@ -255,20 +252,22 @@ header .word-studio {
   background-color: #f5f4fa;
 }
 
-.our-team.foto {
-  margin-bottom: 30px;
-}
 .foto,
 .occupation-foto,
 .work-image {
   display: block;
   /* background-color: darksalmon; */
 }
+.our-team.foto {
+  margin-bottom: 30px;
+}
+.work-image {
+  margin-bottom: 20px;
+}
 
 .team-member {
   margin-top: 0;
   margin-bottom: 10px;
-
   text-align: center;
 
   font-weight: 500;
@@ -297,9 +296,6 @@ header .word-studio {
 .our-team.link {
   cursor: pointer;
 } */
-.our-team.list {
-  display: flex;
-}
 
 /* fotter */
 .footer {
@@ -310,7 +306,6 @@ header .word-studio {
 }
 .physical-address {
   text-decoration: none;
-
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
@@ -400,6 +395,7 @@ header .word-studio {
   margin-top: 0;
   margin-bottom: 20px;
   margin-left: 24px;
+
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -409,7 +405,7 @@ header .word-studio {
 }
 
 .title-image {
-  margin-top: 20px;
+  margin-top: 0;
   margin-bottom: 4px;
   margin-left: 24px;
 
@@ -426,7 +422,6 @@ header .word-studio {
 .container {
   display: flex;
   align-items: center;
-
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -519,6 +514,9 @@ header .word-studio {
 }
 .occupation.list .item:not(:last-child) {
   margin-right: 30px;
+}
+.our-team.list {
+  display: flex;
 }
 
 .our-team .item {
